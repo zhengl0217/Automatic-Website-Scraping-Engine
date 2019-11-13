@@ -7,5 +7,5 @@ two important components:(1) an open-source web scraping framework [Scrapy](http
 (2)[ChromeDriver](https://chromedriver.chromium.org/). Note that the latest version of ChromeDriver has a limitation on 
 the processing page number. In addition, the website administrator may change the HTML files and the corresponding architecture 
 every few months. Therefore, you may have to update the 'XPath'to the appropriate container accordingly. This code only provides 
-a template for your research and study. 
+a template for your research and study. The example output results are shown in the **data** file.
 
