@@ -1,5 +1,5 @@
 """
-This module defines a wrapper function to automatically extract the information that are contained in HTML files.
+This module defines a wrapper function to extract the information that are contained in HTML files automatically .
 """
 import scrapy
 from scrapy.crawler import CrawlerProcess
@@ -12,7 +12,7 @@ __date__ = "Nov. 13, 2019"
 
 # install the chrome website driver and put it under the Applications fold at your local PC
 driver = webdriver.Chrome('/Applications/chromedriver')
-# define waiting period to ensure a complete scrapying percedure
+# define waiting period (~20 seconds) to ensure a complete scrapying percedure
 driver.implicitly_wait(20)
 
 class WebSpider(scrapy.Spider):
@@ -76,7 +76,8 @@ class WebSpider(scrapy.Spider):
         writer = csv.writer(self.infile)
         writer.writerow([title ,journal, date, abstract])
 
-process = CrawlerProcess()
-process.crawl(WebSpider)
-process.start()
+if __name__ == "__main__":
+    process = CrawlerProcess()  
+    process.crawl(WebSpider)
+    process.start()
 
