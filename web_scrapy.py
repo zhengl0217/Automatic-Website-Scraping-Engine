@@ -33,7 +33,7 @@ class WebSpider(scrapy.Spider):
         """
         # define page variable
         url_page = 'https://doaj.org/search?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Oxygen%20reduction%20reaction%22%2C%22default_operator%22%3A%22AND%22%7D%7D%2C%22from%22%3A'+'#'+'%7D'
-        # XPaths list for all the journal links in a page. As there is no general rules for thest paths, I copy all the XPaths here.
+        # XPaths list for all the journal links in a page. As I didn't see any general rules for thest paths, I copied all the XPaths here.
         url_l = ['//*[@id="results"]/div/div/div/div[1]/div/div/div[2]/div/div[1]/span/a',
                  '//*[@id="results"]/div/div/div/div[2]/div/div[1]/div/div/div[2]/div/div[1]/span/a',
                  '//*[@id="results"]/div/div/div/div[2]/div/div[2]/div/div[1]/div/div/div[2]/div/div[1]/span/a',
