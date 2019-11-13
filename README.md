@@ -9,3 +9,4 @@ the processing page number. In addition, the website administrator may change th
 every few months. Therefore, you may have to update the 'XPath'to the appropriate container accordingly. This code only provides 
 a template for your research and study. The example output results are shown in the **data** file.
 
+![alt text](https://github.com/zhengl0217/Automatic-Website-Scraping-Engine/blob/master/HTML_Web_Scrapy.png)
