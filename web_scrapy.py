@@ -59,7 +59,7 @@ class WebSpider(scrapy.Spider):
 
     def parse_page(self, response):
         """
-        Locate the information in the HTML structrue and grape them.
+        Locate the information in the HTML structrue and output them.
         """
         for info in response.css('div.col-md-12'):
             title = info.css('h1::text').extract()[0]
