@@ -10,7 +10,7 @@ __author__ = "Zheng Li"
 __email__ = "zhengl@vt.edu"
 __date__ = "Nov. 13, 2019"
 
-# install the chrome website driver and put it under the Applications fold at your local PC
+# install the chrome website driver and put it under the 'Applications' folder at your local PC
 driver = webdriver.Chrome('/Applications/chromedriver')
 # define waiting period (~20 seconds) to ensure a complete scrapying percedure
 driver.implicitly_wait(20)
