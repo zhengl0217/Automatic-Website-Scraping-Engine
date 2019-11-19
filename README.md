@@ -1,4 +1,4 @@
-# Python wrapper function for processing and extracting the literature information from the open-source repository
+# Python wrapper function for processing and extracting the literature information from the open-access repository
 
 This repository contains a python wrapper function, named as **web_scrapy.py**, for extracting the key journal information 
 (e.g., journal title, publication sources, publication date and abstract) that are related to the topic of "oxygen evolution reaction" 
