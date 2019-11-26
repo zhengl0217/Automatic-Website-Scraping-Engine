@@ -29,7 +29,7 @@ class WebSpider(scrapy.Spider):
 
     def parse(self, response):  
         """
-        Identify the all the links on a website page by providing XPaths. Note that the XPaths can bed found by inspectig the google chrome.
+        Identify the all the links on a website page by providing XPaths. Note that the XPaths can be found by inspectig the google chrome.
         """
         # define page variable
         url_page = 'https://doaj.org/search?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Oxygen%20reduction%20reaction%22%2C%22default_operator%22%3A%22AND%22%7D%7D%2C%22from%22%3A'+'#'+'%7D'
